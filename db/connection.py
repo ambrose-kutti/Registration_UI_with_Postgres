@@ -1,13 +1,12 @@
 import psycopg2
-
 def get_connection():
     """Get PostgreSQL database connection"""
     try:
         conn = psycopg2.connect(
             host="localhost",
-            database="face_registration",
-            user="postgres",
-            password="12345",
+            database="your database name",
+            user="the username",
+            password="your postgres password",
             port="5432"
         )
         return conn
