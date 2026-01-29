@@ -22,6 +22,8 @@ def create_tables():
         with conn.cursor() as cur:
             cur.execute("CREATE EXTENSION IF NOT EXISTS vector;")   # Enable pgvector extension
             # Create users table with embeddings as vector type (for concatenated embeddings)
+            #I HAVE JUST IMPLEMENTED EXAPMLE HERE FOR CREATION OF TABLE FOR AN EMPLOYEES 
+            #YOU CAN CHANGE THIS FOR YOUR REQUIREMENTS
             cur.execute("""
                 CREATE TABLE IF NOT EXISTS users (
                     user_id VARCHAR(50) PRIMARY KEY,
