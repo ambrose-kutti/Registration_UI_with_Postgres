@@ -20,7 +20,7 @@ os.makedirs("templates", exist_ok=True)
 os.makedirs("uploads", exist_ok=True)
 
 # Mount static files
-app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/static", StaticFiles(directory="static"), name="static")    
 templates = Jinja2Templates(directory="templates")
 
 # Initialize database and embedder
