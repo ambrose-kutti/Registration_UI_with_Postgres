@@ -21,8 +21,8 @@ class FaceEmbedder:
             image_bytes = base64.b64decode(image_data)
             image = Image.open(BytesIO(image_bytes))
             image = np.array(image)
-            embedding = np.random.randn(self.embedding_size).astype(np.float32) # Your face detection and embedding generation logic here
-            embedding = embedding / np.linalg.norm(embedding)   # Normalize embedding (important for vector similarity)
+            embedding = np.random.randn(self.embedding_size).astype(np.float32)    # Your face detection and embedding generation logic here
+            embedding = embedding / np.linalg.norm(embedding)    # Normalize embedding (important for vector similarity)
             return embedding
         except Exception as e:
             print(f"Error generating embedding: {e}")
