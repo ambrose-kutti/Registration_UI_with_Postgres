@@ -1,0 +1,1 @@
+A simple **user registration web application** built with **Python (Flask)**, **HTML/CSS/JavaScript**, and backed by a **PostgreSQL database**. This project demonstrates how to create a registration form, store user details securely, and manage database interactions with Postgres.
