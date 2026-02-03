@@ -2,17 +2,11 @@ A simple **user registration web application** built with **Python (Flask)**, **
 
 ## 📂 Project Structure
 ├── app.py                   # Main Flask application
-
 ├── face_embeddings.py       # Script for handling face embeddings (optional feature)
-
 ├── requirements.txt         # Python dependencies
-
 ├── templates/               # HTML templates (UI pages)
-
 ├── static/                  # CSS, JS, and static assets
-
 ├── database/                # Database-related files/configurations
-
 └── .gitignore
 
 ## 🚀 Features
